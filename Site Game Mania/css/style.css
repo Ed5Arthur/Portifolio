@@ -34,7 +34,7 @@ header {
 
 .banner {
     height: 600px;
-    background-image: url(../img/BANNER.jpg);
+    background-image: url(../img/talvez\ novo\ background\ inicial.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -42,6 +42,21 @@ header {
 .texto-banner {
     color: white;
     background-color: #020512;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.texto-banner a {
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-shadow: gray;
 }
 
 .posição-texto {
