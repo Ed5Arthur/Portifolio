@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke;
 }
 
 .container-grid {
@@ -61,4 +62,68 @@ header {
 
 .posição-texto {
     justify-content: flex-end;
+}
+
+.INFOS {
+    width: 400px;
+    justify-content: space-between;
+}
+
+#Botao-inicio {
+    background-color: purple;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 300px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #020512;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    width: 40px;
+    height: 40px;
+    background: #020512;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.left .content .social a span:hover {
+    background: darkmagenta;
 }
