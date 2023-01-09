@@ -285,4 +285,8 @@ a:hover {
         text-align: center;
         padding: 15px;
     }
+
+    .menu-ativo {
+        display: flex;
+    }
 }
