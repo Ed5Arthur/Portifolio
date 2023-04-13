@@ -1,18 +1,31 @@
 body {
+    background-color: #071033;
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #0e0345;
-    font-size: 16px;
+    font-size: 15px;
+    color: white;
+    font-family: Sans Serif;
 }
 
-#title,
-#description {
+h1,
+p {
     text-align: center;
 }
 
 fieldset {
     border: none;
     padding: 2rem 0;
-    border-bottom: 3px solid #0e0345
+    border-bottom: 3px solid #384785
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
 }
