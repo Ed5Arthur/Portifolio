@@ -2,30 +2,36 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/Ativ Aval.css" <h1 id="title">Form Test</h1>
-    <p id="description">Please answer clearly</p>
+    <link rel="stylesheet" href="/Ativ Aval.css">
+    <h1 id:"title">Form Test</h1>
+    <p id:"description">Please answer clearly</p>
 </head>
 
 <body>
     <fieldset>
-        <form id="survey-form">
-            <label id="name-label" for="name">Name:</label>
-            <input id="name" type="text" placeholder="Enter your name" required />
-            <label for="email" id="email-label">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required />
-            <label for="number" id="number-label">Age:</label>
-            <input type="number" min="12" max="120" id="number" placeholder="Age" required />
+        <form id:"survey-form">
+            <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Enter your name"
+                    required /></label>
+            <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email"
+                    required /></label>
+            <label for="number" id="number-label">Age: <input type="number" min="12" max="120" id="number"
+                    placeholder="Age" required /></label>
             <label>How did you find out about our services?</label>
-            <select name="options">
+            <select id="dropdown">
                 <option value="">select one</option>
                 <option value="1">For a friend</option>
                 <option value="2">Through social networks</option>
                 <option value="3">online ad</option>
-                <input type="radio" />
-
+                <option>
+                    <input type="radio" value="1" name="op1" />
+                    <input type="radio" value="2" name="op2" />
+                </option>
+                <input type="checkbox" value="1" />
+                <input type="checkbox" value="2" />
             </select>
-        </form>
+            <button id="submit">submit</button>
     </fieldset>
+    </form>
 </body>
 
 </html>
