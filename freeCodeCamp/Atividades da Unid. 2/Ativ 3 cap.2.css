@@ -56,6 +56,7 @@ p {
     font-size: 0.85rem;
 }
 
+
 .calories-info {
     display: flex;
     justify-content: space-between;
@@ -80,4 +81,12 @@ p {
 
 .right {
     justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
 }
